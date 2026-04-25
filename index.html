@@ -1,14 +1,141 @@
-<html>
-<head><title>BlueLineNote Support</title></head>
-<body style="font-family: Arial; padding: 40px; max-width: 800px;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support | BlueLineNote</title>
+
+<style>
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+background: #0b1220;
+color: #e5e7eb;
+}
+
+body::before {
+content: "";
+position: fixed;
+inset: 0;
+background: radial-gradient(circle at 20% 10%, rgba(29,78,216,0.25), transparent 40%),
+radial-gradient(circle at 80% 90%, rgba(59,130,246,0.15), transparent 50%);
+z-index: -1;
+}
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+padding: 80px 20px;
+}
+
+.card {
+background: rgba(15,23,42,0.75);
+backdrop-filter: blur(14px);
+border-radius: 28px;
+padding: 44px;
+border: 1px solid rgba(255,255,255,0.08);
+box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+}
+
+h1 {
+margin: 0 0 24px;
+font-size: 2.4rem;
+color: #ffffff;
+}
+
+p {
+font-size: 1.05rem;
+line-height: 1.75;
+color: #cbd5f5;
+margin-bottom: 18px;
+}
+
+.highlight {
+color: #ffffff;
+font-weight: 700;
+}
+
+.divider {
+height: 1px;
+background: rgba(255,255,255,0.1);
+margin: 30px 0;
+}
+
+.back-link {
+display: inline-block;
+margin-bottom: 20px;
+text-decoration: none;
+color: #60a5fa;
+font-weight: 700;
+}
+
+.support-email {
+display: inline-block;
+margin-top: 6px;
+color: #ffffff;
+font-weight: 800;
+text-decoration: none;
+}
+
+.support-email:hover {
+color: #60a5fa;
+}
+
+.notice {
+margin-top: 10px;
+font-weight: 600;
+color: #e5e7eb;
+}
+
+@media (max-width: 600px) {
+.card {
+padding: 28px;
+}
+
+h1 {
+font-size: 2rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="card">
+
+<a href="/" class="back-link">← Back to BlueLineNote</a>
 
 <h1>BlueLineNote Support</h1>
 
-<p>If you need help or have questions:</p>
+<p>
+Need help, have a question, or want to report an issue?
+</p>
 
-<p><strong>support.bluelinenote@gmail.com</strong></p>
+<p>
+Contact BlueLineNote support at:
+<br>
+<a href="mailto:support.bluelinenote@gmail.com" class="support-email">
+support.bluelinenote@gmail.com
+</a>
+</p>
 
-<p>BlueLineNote is designed for fast field note organization and report generation.</p>
+<div class="divider"></div>
+
+<p>
+BlueLineNote is designed for fast field note organization, crash documentation, and report preparation.
+</p>
+
+<p>
+<span class="highlight">For privacy and user protection, BlueLineNote does not provide cloud storage or developer access to user-generated notes, reports, scans, or records.</span>
+</p>
+
+<p class="notice">
+Users are responsible for managing, exporting, and deleting their own data.
+</p>
+
+</div>
+</div>
 
 </body>
 </html>
